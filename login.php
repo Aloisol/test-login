@@ -1,14 +1,15 @@
 <?php
+error_reporting(0);
 
   $u = $_POST['uname'];
   $p = $_POST['psw'];
 
 
-  if (strcmp($u, "admin") !== 0 && strcmp($p, "admin") !== 0) {
+  if (strcmp($u, "admin") == 0 && strcmp($p, "admin") == 0) {
 
-    echo "OK!";
+    echo "OK!<br><br>";
     sleep(3);
-    header('location: index.php');
+    echo "<a href='index.php'>Volver</a>";
 
   }
   else{
