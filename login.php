@@ -13,7 +13,7 @@
   }
   else{
     echo "ERROR<br><br>";
-    echo "<a href='index.php'>Volver</a>"
+    echo "<a href='index.php'>Volver</a>";
 
   }
 
