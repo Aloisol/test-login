@@ -5,8 +5,9 @@ error_reporting(0);
   $p = $_POST['psw'];
 
 echo "U: ".$u;
+echo "<br>";
 echo "P: ".$p;
-echo "<br><br>";
+echo "<br><hr>";
 
   if (strcmp($u, "admin") == 0 && strcmp($p, "admin") == 0) {
 
