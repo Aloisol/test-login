@@ -10,7 +10,7 @@
 class="close" title="Close Modal">&times;</span>
 
   <!-- Modal Content -->
-  <form class="modal-content animate" action="/login.php">
+  <form class="modal-content animate" action="/login.php" method="post">
     <div class="imgcontainer">
       <img src="img_avatar2.png" alt="Avatar" class="avatar">
     </div>
